@@ -8,3 +8,7 @@
     * classifier using a regular feed forward neural network of dense layers
 * MNIST_classifier_CNNs_PyTorch.ipynb
     * classifier whic uses CNNs
+* Custom-Images-CNN-PyTorch.ipynb
+    * Trying out CNNs on bigger images than MNIST & CIFAR
+    * Comparing AlexNet performance to my CNN model
+    * AlexNet can be loaded pre-trained from torchvision.models module  
