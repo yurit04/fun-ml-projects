@@ -11,4 +11,4 @@
 * Custom-Images-CNN-PyTorch.ipynb
     * Trying out CNNs on bigger images than MNIST & CIFAR
     * Comparing AlexNet performance to my CNN model
-    * AlexNet can be loaded pre-trained from torchvision.models module  
+    * AlexNet can be loaded pre-trained from torchvision.models   
