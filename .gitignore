@@ -13,3 +13,4 @@
 .ipynb_checkpoints/MNIST-classifier-KERAS-checkpoint.ipynb
 .ipynb_checkpoints/CIFAR10-CNN-PyTorch-checkpoint.ipynb
 .ipynb_checkpoints/CIFAR10-Tensorflow2-Keras-checkpoint.ipynb
+.DS_Store
