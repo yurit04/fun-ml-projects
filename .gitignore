@@ -16,3 +16,5 @@
 .DS_Store
 .ipynb_checkpoints/Autoencoder-for-dim-reduction-Keras-checkpoint.ipynb
 .ipynb_checkpoints/Autoencoder-for-Images-Keras-checkpoint.ipynb
+.ipynb_checkpoints/approximating math functions with NNs-checkpoint.ipynb
+.ipynb_checkpoints/mnist-keras-kaggle-checkpoint.ipynb
