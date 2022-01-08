@@ -24,3 +24,9 @@ Data/.DS_Store
 .ipynb_checkpoints/C3W1_Assignment-checkpoint.ipynb
 .ipynb_checkpoints/tf-caltech_birds2011-checkpoint.ipynb
 .ipynb_checkpoints/RL-examples-checkpoint.ipynb
+.ipynb_checkpoints/xgboost_example-checkpoint.ipynb
+*.xml
+rl/.ipynb_checkpoints/gridworld-checkpoint.ipynb
+rl/gridworld/__pycache__/policy.cpython-38.pyc
+rl/gridworld/__pycache__/gridworld.cpython-38.pyc
+rl/.idea/rl.iml
