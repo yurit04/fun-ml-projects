@@ -30,3 +30,4 @@ rl/.ipynb_checkpoints/gridworld-checkpoint.ipynb
 rl/gridworld/__pycache__/policy.cpython-38.pyc
 rl/gridworld/__pycache__/gridworld.cpython-38.pyc
 rl/.idea/rl.iml
+.ipynb_checkpoints/Bidirectional LSTM on IMDB-checkpoint.ipynb
