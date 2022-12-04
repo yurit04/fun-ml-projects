@@ -1,3 +1,3 @@
 # fun-ml-projects
 
-Tutorials just for fun.
+Small ML projects and tutorials just for fun.
