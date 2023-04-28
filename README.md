@@ -1,3 +1,3 @@
 # fun-ml-projects
 
-Small ML projects and tutorials just for fun.
+Projects for online courses that I did and also some small projects/tutorials. These were my first steps in AI. 
