@@ -104,3 +104,21 @@ venv.bak/
 
 # Apple aux files
 .DS_Store
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2008.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2007.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2006.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2005.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2004.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2003.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/pandas-frames.2008.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/pandas-frames.2007.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/pandas-frames.2006.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/pandas-frames.2005.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/pandas-frames.2004.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/pandas-frames.2003.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/covariance.2008.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/covariance.2007.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/covariance.2006.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/covariance.2005.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/covariance.2004.pickle
+__udacity__/ai_for_trading/projects/project_8/data/project_8_barra/covariance.2003.pickle
