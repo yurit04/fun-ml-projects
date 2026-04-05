@@ -16,25 +16,56 @@ It does **not** apply to other folders in the repo (for example `deep_learning/`
 
 ### Requirements
 
-- **Python 3.10+**
+- **Python 3.10 or newer** (matches `requires-python` in `pyproject.toml`).
+- [`uv`](https://docs.astral.sh/uv/) is optional; use it if you want faster installs and simple version management.
 
 ### Install
 
-From the **root** of this repository (the directory that contains `pyproject.toml`):
+Run everything from the **repository root** (the directory that contains `pyproject.toml`).
+
+The **`[notebook]`** extra pulls in Jupyter and `ipykernel` so you can open the `.ipynb` files. **PyTorch** is a normal dependency because `time_series/basic_rnn_pytorch.ipynb` needs it, so the first install can be large and take a while.
+
+#### Option 1: Standard `venv` and `pip`
 
 ```bash
 python3.10 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -U pip
 pip install -e ".[notebook]"
 ```
 
-The `[notebook]` extra installs Jupyter and `ipykernel` so you can run the `.ipynb` files. PyTorch is included in the base dependencies because `time_series/basic_rnn_pytorch.ipynb` needs it; that makes the first install larger.
+Use any interpreter that satisfies **3.10+** (for example `python3.11` or `python3.12` instead of `python3.10`).
+
+#### Option 2: `uv`
+
+Install `uv` (see the [official install guide](https://docs.astral.sh/uv/getting-started/installation/)), then:
+
+```bash
+# Optional: have uv download and manage a specific Python (must be 3.10+)
+uv python install 3.12
+
+# Create the virtual environment
+uv venv --python 3.12
+
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+uv pip install -e ".[notebook]"
+```
+
+If you prefer not to activate the venv, you can target it explicitly:
+
+```bash
+uv venv --python 3.12
+uv pip install --python .venv/bin/python -e ".[notebook]"
+```
+
+`uv` reads the same `pyproject.toml` metadata as `pip` (`dependencies` and optional extras such as `[notebook]`).
 
 ### Optional: named Jupyter kernel
+
+After the environment is installed and activated:
 
 ```bash
 python -m ipykernel install --user --name fun-ml-projects --display-name "Python (fun-ml-projects)"
 ```
 
-Then choose that kernel when opening notebooks under `finance/`, `miscellaneous/`, or `time_series/`.
+Then choose **Python (fun-ml-projects)** when opening notebooks under `finance/`, `miscellaneous/`, or `time_series/`. In Cursor or VS Code you can instead pick the interpreter **`.venv/bin/python`** directly.
