@@ -16,8 +16,8 @@ It does **not** apply to other folders in the repo (for example `deep_learning/`
 
 ### Requirements
 
-- **Python 3.10 or newer** (matches `requires-python` in `pyproject.toml`).
-- [`uv`](https://docs.astral.sh/uv/) is optional; use it if you want faster installs and simple version management.
+- **[`uv`](https://docs.astral.sh/uv/)** — install it using the [official install guide](https://docs.astral.sh/uv/getting-started/installation/).
+- **Python 3.10 or newer** — `uv` can install and pin a version for you (`requires-python` in `pyproject.toml` is `>=3.10`).
 
 ### Install
 
@@ -25,23 +25,8 @@ Run everything from the **repository root** (the directory that contains `pyproj
 
 The **`[notebook]`** extra pulls in Jupyter and `ipykernel` so you can open the `.ipynb` files. **PyTorch** is a normal dependency because `time_series/basic_rnn_pytorch.ipynb` needs it, so the first install can be large and take a while.
 
-#### Option 1: Standard `venv` and `pip`
-
 ```bash
-python3.10 -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -U pip
-pip install -e ".[notebook]"
-```
-
-Use any interpreter that satisfies **3.10+** (for example `python3.11` or `python3.12` instead of `python3.10`).
-
-#### Option 2: `uv`
-
-Install `uv` (see the [official install guide](https://docs.astral.sh/uv/getting-started/installation/)), then:
-
-```bash
-# Optional: have uv download and manage a specific Python (must be 3.10+)
+# Have uv download a Python that satisfies 3.10+ (adjust 3.12 if you like)
 uv python install 3.12
 
 # Create the virtual environment
@@ -51,14 +36,16 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 uv pip install -e ".[notebook]"
 ```
 
-If you prefer not to activate the venv, you can target it explicitly:
+If you prefer not to activate the venv, target it explicitly:
 
 ```bash
 uv venv --python 3.12
 uv pip install --python .venv/bin/python -e ".[notebook]"
 ```
 
-`uv` reads the same `pyproject.toml` metadata as `pip` (`dependencies` and optional extras such as `[notebook]`).
+On Windows, use `.venv\Scripts\python.exe` in place of `.venv/bin/python`.
+
+`uv pip install` reads the same `pyproject.toml` metadata as `pip` (`dependencies` and optional extras such as `[notebook]`).
 
 ### Optional: named Jupyter kernel
 
