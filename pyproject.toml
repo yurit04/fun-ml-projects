@@ -25,6 +25,7 @@ dependencies = [
     "riskfolio-lib>=6.0",
     "arch>=6.3",
     "torch>=2.0",
+    "gymnasium>=0.29",
 ]
 
 [project.optional-dependencies]
