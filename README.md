@@ -8,7 +8,7 @@ The file [`pyproject.toml`](pyproject.toml) at the **repository root** pins depe
 
 | Directory | Notes |
 |-----------|--------|
-| [`finance/`](finance/) | Equities notebook (Yahoo Finance, Plotly, Wikipedia / `read_html`) and corporate-bond GNN notebook (SciPy, scikit-learn, NetworkX). |
+| [`quant_finance/`](quant_finance/) | Equities notebook (Yahoo Finance, Plotly, Wikipedia / `read_html`) and corporate-bond GNN notebook (SciPy, scikit-learn, NetworkX). |
 | [`miscellaneous/`](miscellaneous/) | `silly_examples.ipynb` (NumPy, Pandas, Matplotlib). |
 | [`time_series/`](time_series/) | ARIMA / ARCH / portfolio notebooks (`statsmodels`, `arch`, `cvxpy`, `riskfolio-lib`, `yfinance`, …) and `basic_rnn_pytorch.ipynb` (**PyTorch**). |
 
@@ -55,4 +55,4 @@ After the environment is installed and activated:
 python -m ipykernel install --user --name fun-ml-projects --display-name "Python (fun-ml-projects)"
 ```
 
-Then choose **Python (fun-ml-projects)** when opening notebooks under `finance/`, `miscellaneous/`, or `time_series/`. In Cursor or VS Code you can instead pick the interpreter **`.venv/bin/python`** directly.
+Then choose **Python (fun-ml-projects)** when opening notebooks under `quant_finance/`, `miscellaneous/`, or `time_series/`. In Cursor or VS Code you can instead pick the interpreter **`.venv/bin/python`** directly.

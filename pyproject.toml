@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fun-ml-projects"
 version = "0.1.0"
-description = "Shared dependencies for notebooks under finance/, miscellaneous/, and time_series/."
+description = "Shared dependencies for notebooks under quant_finance/, miscellaneous/, and time_series/."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
