@@ -104,6 +104,10 @@ venv.bak/
 
 # Apple aux files
 .DS_Store
+
+# Factor models data cache and figures
+quant_finance/factor_models/data_cache/
+quant_finance/factor_models/figures/
 __udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2008.pickle
 __udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2007.pickle
 __udacity__/ai_for_trading/projects/project_8/data/project_8_barra/price.2006.pickle
