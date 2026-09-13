@@ -26,6 +26,9 @@ dependencies = [
     "arch>=6.3",
     "torch>=2.0",
     "gymnasium>=0.29",
+    "pygame>=2.5",           # CartPole rgb_array rendering (gymnasium[classic-control])
+    "imageio>=2.30",
+    "imageio-ffmpeg>=0.5",   # bundled ffmpeg for writing mp4 videos
 ]
 
 [project.optional-dependencies]
