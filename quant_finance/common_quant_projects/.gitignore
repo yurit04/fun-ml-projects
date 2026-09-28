@@ -1,0 +1,8 @@
+# Large extracts derived from licensed Databento / Massive data: rebuilt automatically by qdata.py / the notebooks
+data_cache/mbo_*.parquet
+data_cache/glbx_*.parquet
+data_cache/volume_bins_5m.parquet
+data_cache/es_daily_rv5m.parquet
+data_cache/finbert_news/
+data_cache/finbert.log
+__pycache__/
