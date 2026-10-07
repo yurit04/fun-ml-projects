@@ -29,6 +29,11 @@ dependencies = [
     "pygame>=2.5",           # CartPole rgb_array rendering (gymnasium[classic-control])
     "imageio>=2.30",
     "imageio-ffmpeg>=0.5",   # bundled ffmpeg for writing mp4 videos
+    "pyarrow>=15.0",         # parquet datasets (quant_finance/common_quant_projects)
+    "hmmlearn>=0.3",         # regime-switching HMM
+    "databento>=0.40",       # reading local Databento DBN files
+    "numba>=0.59",           # order-book reconstruction / LOB simulation
+    "transformers>=4.40",    # FinBERT news sentiment
 ]
 
 [project.optional-dependencies]

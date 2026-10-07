@@ -8,7 +8,7 @@ The file [`pyproject.toml`](pyproject.toml) at the **repository root** pins depe
 
 | Directory | Notes |
 |-----------|--------|
-| [`quant_finance/`](quant_finance/) | Equities notebook (Yahoo Finance, Plotly, Wikipedia / `read_html`) and corporate-bond GNN notebook (SciPy, scikit-learn, NetworkX). |
+| [`quant_finance/`](quant_finance/) | Equities notebook (Yahoo Finance, Plotly, Wikipedia / `read_html`), corporate-bond GNN notebook (SciPy, scikit-learn, NetworkX), and nine [common quant projects](quant_finance/common_quant_projects/README.md) on local Massive/Databento data (`pyarrow`, `databento`, `numba`, `hmmlearn`, `transformers`). |
 | [`miscellaneous/`](miscellaneous/) | `silly_examples.ipynb` (NumPy, Pandas, Matplotlib). |
 | [`time_series/`](time_series/) | ARIMA / ARCH / portfolio notebooks (`statsmodels`, `arch`, `cvxpy`, `riskfolio-lib`, `yfinance`, …) and `basic_rnn_pytorch.ipynb` (**PyTorch**). |
 | [`reinforcement_learning/`](reinforcement_learning/) | Eleven tutorial notebooks on landmark RL algorithms (DP, Q-learning, REINFORCE, DQN, A2C, TRPO, PPO, DDPG, TD3, SAC, AlphaZero) with **PyTorch**, `gymnasium`, `pygame` rendering and `imageio` GIFs. See its [README](reinforcement_learning/README.md). |
